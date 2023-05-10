@@ -1,7 +1,7 @@
 Install MongoDB,
 Create a collection in mongodb with name movies,
        
-Task 1: Add all movies from movies.json in movies collection. (https://github.com/PatelNeelMahesh/mern_perp/blob/main/mongodb/movies.json)  
+Task 1: Add all movies from movies.json in movies collection. (https://github.com/PatelNeelMahesh/mern_perp/blob/main/mongodb/movies.json)
 Task 2: Get all documents in movies collection 
 Task 3: Get all documents with writer set to “Quentin Tarantino”
 Task 4: Get all documents where actors include “Brad Pitt”
