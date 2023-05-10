@@ -8,3 +8,10 @@ Task 4: Get all documents where actors include “Brad Pitt”
 Task 5: Get all documents where franchise is set to “The Hobbit”
 Task 6: Get all the movies released in the 90’s
 Task 7: Get all the movies release before 2000 or after 2010
+
+Task 8: Add a Synopsis to “The Hobbit: An Unexpected Journey”
+-> "synopsis": "A reluctant Hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home, and the gold within it from the dragon Smaug."
+
+Task 9: Add an actor named "Samuel L. Jackson" to the movie "Pulp Fiction"
+
+Task 10: Find all movies that have a synopsis that contains the word "Bilbo" and not the word "Gandalf" 
