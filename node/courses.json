@@ -1,7 +1,7 @@
 {
   "kalvium": [
     {
-      "course": "FSWD",
+      "course": "fswd",
       "courseId": 1,
       "cohort": 43,
       "college": "Kalvium",
@@ -10,7 +10,7 @@
       "studentsVoted": 0
     },
     {
-      "course": "BOCS",
+      "course": "bocs",
       "courseId": 2,
       "cohort": 44,
       "college": "Kalvium",
@@ -19,7 +19,7 @@
       "studentsVoted": 12
     },
     {
-      "course": "BOCS2",
+      "course": "bocs2",
       "courseId": 3,
       "cohort": 44,
       "college": "Lovely professional university",
@@ -28,7 +28,7 @@
       "studentsVoted": 0
     },
     {
-      "course": "PSUP",
+      "course": "psup",
       "courseId": 4,
       "cohort": 45,
       "college": "CBE",
