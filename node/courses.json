@@ -1,0 +1,40 @@
+{
+  "kalvium": [
+    {
+      "course": "FSWD",
+      "courseId": 1,
+      "cohort": 43,
+      "college": "Kalvium",
+      "semester": 2,
+      "averageRating": 0,
+      "studentsVoted": 0
+    },
+    {
+      "course": "BOCS",
+      "courseId": 2,
+      "cohort": 44,
+      "college": "Kalvium",
+      "semester": 3,
+      "averageRating": 9.25,
+      "studentsVoted": 12
+    },
+    {
+      "course": "BOCS2",
+      "courseId": 3,
+      "cohort": 44,
+      "college": "Lovely professional university",
+      "semester": 2,
+      "averageRating": 0,
+      "studentsVoted": 0
+    },
+    {
+      "course": "PSUP",
+      "courseId": 4,
+      "cohort": 45,
+      "college": "CBE",
+      "semester": 2,
+      "averageRating": 4,
+      "studentsVoted": 3
+    }
+  ]
+}
