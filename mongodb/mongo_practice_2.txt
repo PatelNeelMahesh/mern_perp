@@ -1,0 +1,75 @@
+Insert the following documents into a users collection
+> db.users.insertMany([{
+"username" : "GoodGuyGreg",
+"first_name" : "Good Guy",
+"last_name" : "Greg"
+},{
+"username" : "ScumbagSteve",
+"full_name" : {"first" : "Scumbag","last" : "Steve"}
+}])
+
+
+Insert the following documents into a posts collection
+> db.posts.insertMany([{
+"username" : "GoodGuyGreg",
+"title" : "Passes out at party",
+"body" : "Wakes up early and cleans house"
+},{
+"username" : "GoodGuyGreg",
+"title" : "Steals your identity",
+"body" : "Raises your credit score"
+},{
+"username" : "GoodGuyGreg",
+"title" : "Reports a bug in your code",
+"body" : "Sends you a Pull Request"
+},{
+"username" : "ScumbagSteve",
+"title" : "Borrows something",
+"body" : "Sells it"
+},{
+"username" : "ScumbagSteve",
+"title" : "Borrows everything",
+"body" : "The end"
+},{
+ "username" : "ScumbagSteve",
+"title" : "Forks your repo on github",
+"body" : "Sets to private"
+}])
+
+
+Insert the following documents into a comments collection
+
+> db.comments.insertMany([{
+"username" : "GoodGuyGreg",
+"comment" : "Hope you got a good deal!",
+"post" : "5f622c58d333e3be77ecc324"
+},{
+"username" : "GoodGuyGreg",
+"comment" : "What's mine is yours!",
+"post" : "5f622c58d333e3be77ecc325"
+},{
+"username" : "GoodGuyGreg",
+"comment" : "Don't violate the licensing agreement!",
+"post" : "5f622c58d333e3be77ecc326"
+},{
+"username" : "ScumbagSteve",
+ "comment" : "It still isn't clean",
+"post" : "5f622c58d333e3be77ecc321"
+}])
+
+*****Querying related collections***** 
+1.	find all users 
+
+2.	find all posts 
+
+3.	find all posts that was authored by "GoodGuyGreg" 
+
+4.	find all posts that was authored by "ScumbagSteve" 
+
+5.	find all comments 
+
+6.	find all comments that was authored by "GoodGuyGreg" 
+
+7.	find all comments that was authored by "ScumbagSteve" 
+
+Finally, Migrate from mongodb compass to mongodb atlas.
