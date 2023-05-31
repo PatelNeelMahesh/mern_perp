@@ -1,0 +1,582 @@
+1) Given an array of size N-1 such that it only contains distinct integers in the range of 
+1 to N. Find the missing element. 
+
+Example 1: 
+Input: N = 5 A[] = {1,2,3,5}
+Output: 4
+
+Example 2: 
+Input: N = 10 A[] = {1,2,3,4,5,6,7,8,10}
+Output: 9
+
+
+
+
+2)  Given two strings denoting non-negative numbers s1 and s2. Calculate the sum of s1 and s2.
+
+Input Format:
+Two strings denoting s1 and s2
+Output Format:
+A string that is the sum of s1 and s2
+
+Sample Input:
+9867
+567
+Sample Output:
+10434
+
+
+
+
+
+3) Klaus Mikaelson and his daughter Hope were arguing about who is the smartest person in the family. Klaus who is a world-known Computer Engineer asked Hope who has not yet completed her college to write a program to sort the given array in ascending order. Can you help Hope?
+Input Format:
+Input consists of 1 integer and 1 array.
+The integer corresponds to the size of the array.
+Output Format:
+The output consists of array elements after sorting.
+Sample Input 1:
+5
+54
+68
+25
+14
+74
+Sample Output 1:
+The sorted array is:
+14
+25
+54
+68
+74
+Explanation:
+Here we can compare the 1st value(54)with all the other values,54 is greater than 14 and 25 and hence 54 will get printed in the third position.
+Repeat the same process for all the remaining values to get the output in sorted order.
+
+
+
+
+
+4) Write a program to rotate the given string by two places anti-clockwise.
+Rotating anti-clockwise means moving characters of the string from front to back one by one.
+Sample input :
+water
+Output :
+terwa
+
+
+
+
+
+5) Given two strings a and b. The task is to find if the string 'b' can be obtained by rotating another string 'a' by exactly 2 places.
+Example 1:
+Input:
+a = amazon
+b = azonam
+Output: 1
+Explanation: amazon can be rotated anti
+clockwise by two places, which will make
+it as azonam
+
+
+
+
+
+
+
+
+6) Find the substring of the given length starting from x
+Given a string Str and starting position of the substring and length n. Your task is to write a program to
+print the substring starting from the given position and of length n.
+Example:
+Input :
+abcdefgh
+2 4
+Output:
+cdef
+Explanation: The given starting position of the substring is 2 which is the position of starting index in original string and it must be of length 4 so the output is cdef
+
+
+
+
+7) Write a program to rotate the given string by two places anti-clockwise.
+Rotating anti-clockwise means moving characters of the string from front to back one by one.
+Sample input :
+water
+Output :
+terwa
+
+
+
+
+
+8) Given an integer array nums, return the greatest common divisor of the smallest number and largest number in nums.
+
+The greatest common divisor of two numbers is the largest positive integer that evenly divides both numbers.
+ 
+Example 1:
+Input: nums = [2,5,6,9,10]
+Output: 2
+
+Explanation:
+The smallest number in nums is 2.
+The largest number in nums is 10.
+The greatest common divisor of 2 and 10 is 2.
+
+
+
+9) Given an integer array nums, find a subarray that has the largest product, and returns the product.
+
+Input: nums = [2,3,-2,4]
+Output: 6
+Explanation: [2,3] has the largest product 6.
+
+
+
+
+10) Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie.
+
+Each child i has a greed factor g[i], which is the minimum size of a cookie that the child will be content with; and each cookie j has a size s[j]. If s[j] >= g[i], we can assign the cookie j to the child i, and the child i will be content. Your goal is to maximise the number of your content children and output the maximum number.
+ 
+Example 1:
+Input: g = [1,2,3], s = [1,1]
+Output: 1
+Explanation: You have 3 children and 2 cookies. The greed factors of 3 children are 1, 2, 3. 
+And even though you have 2 cookies, since their size is both 1, you could only make the child whose greed factor is 1 content.
+You need to output 1.
+
+Example 2:
+Input: g = [1,2], s = [1,2,3]
+Output: 2
+Explanation: You have 2 children and 3 cookies. The greed factors of 2 children are 1, 2. 
+You have 3 cookies and their sizes are big enough to gratify all of the children, 
+You need to output 2.
+
+ 
+
+Constraints:
+1 <= g.length <= 3 * 104
+0 <= s.length <= 3 * 104
+1 <= g[i], s[j] <= 231 - 1
+
+
+
+11) There is a game conducted to check the eye span and reading speed of all the students. But the twist is they should read in the reverse order and have to writhe the particular word in reverse order. Write a C++ program to find the reverse of the given string without using string library functions.
+
+Input Format:
+Input consists of 1 string.
+Output Format:
+The Output consists of 1 string that corresponds to the reverse of the input string.
+Sample Input 1:
+Face
+Sample Output 1:
+The reversed string is ecaF.
+Explanation:
+Here the input string is Face and hence its reverse ecaF will get printed.
+Sample Input 2:
+Codelab
+Sample Output 2:
+The reversed String is baledoC.
+Explanation:
+Here the input string is Codelab and hence its reverse baledoC will get printed.
+
+
+12) Alia got a task to concatenate two strings. Help her to write a program to find the concatenation of the given two strings using string library functions.
+Input Format:
+Input consists of 2 strings.
+Output Format:
+The Output consists of one concatenated string.
+Sample Input 1:
+Face
+focus 
+Sample Output 1:
+Facefocus
+Explanation:
+Here the two strings are Face and focus and hence the concatenated string Facefocus will get printed.
+Sample Input 2:
+Fresh
+grad
+Sample Output 2:
+Freshgrad
+Explanation:
+Here the two strings are Fresh and grad and hence the concatenated string Freshgrad will get printed.
+
+
+13) Given a binary string S consisting of 0s and 1s. The task is to find the maximum difference of the number of 0s and the number of 1s (number of 0s – number of 1s) in the substrings of a string.
+Note: In the case of all 1s, the answer will be -1.
+Example 1:
+Input : S = "11000010001" 
+Output : 6 
+Explanation: From index 2 to index 9, 
+there are 7 0s and 1 1s, so number 
+of 0s - number of 1s is 6. 
+Example 2:
+Input : S = "111111"
+Output : -1
+Explanation : S contains 1s only 
+
+
+
+14)Write a program to check the regular expression matching. Hint: ‘+’ indicates consecutive multiple occurrences of that particular character.
+Input Format
+First-line consists of a string s
+Second-line consists of string s
+Output Format
+The output consists of string whether it is matched or not
+Refer to the sample output for formatting
+Sample Input:
+a+b+c
+aaabbc
+Sample Output:
+Matched
+
+
+
+15) A bus stop queue has n groups of people. The i-th group from the beginning has ai people. Every 30 minutes an empty bus arrives at the bus stop, it can carry at most m people. Naturally, the people from the first group enter the bus first. 
+Then go the people from the second group and so on. Note that the order of groups in the queue never changes. Moreover, if some group cannot fit all of its members into the current bus, it waits for the next bus together with other groups standing after it in the queue. Your task is to determine the number of buses needed to transport all n groups to the Jeju Island countryside.
+
+Input Format:
+The first line contains two integers n and m (1 ≤ n, m ≤ 100). The next line contains n integers: a1, a2, ..., an (1 ≤ ai ≤ m).
+Output Format:
+Print a single integer — the number of buses needed to transport all n groups to the Jeju Island countryside.
+
+Sample Input 1:
+4 3
+2 3 2 1
+Sample Output 1:
+3
+Explanation:
+Here there are 4 groups of people and an empty bus can accommodate 3 persons.1st group of people will go in one bus(2), then the second group of people will go on the next bus(3) and then 3rd and 4rth group of people can go in a single bus(2+1). Hence the total number of buses is 3.
+
+Sample Input 2:
+4 4
+3 3 3 3
+Sample Output 2:
+4
+Explanation:
+Here there are 4 groups of people and an empty bus can accommodate 4 persons. Each group of people will go on each bus. Hence the total number of buses is 4. 
+
+
+
+
+
+
+
+16) N number of people participated in a coding marathon where they were asked to solve some problems. Each problem carried 1 mark and at the end of the marathon, the total marks that each person achieved were calculated.
+As an organiser, you have a list of the total marks that each person achieved. You have to calculate the sum of the marks of top K scorers from the list.
+
+
+Input Specification: 
+input1: N, Total number of participants
+input2: Top scorers
+input3: An array of length N with the scores of all N participants
+Output Specification:
+Return S, the sum of the marks of top K scorers from the list.
+Example 1: 
+4
+2
+4 1 2 5
+Output: 
+9
+Explanation: 
+Top 2 scores are 5 and 4. Sum = 5+4=9.
+Example 2:
+4
+3
+4 3 6 1
+Output: 
+﻿13
+Explanation: 
+Top 3 scores are 6, 4 and 3. Sum = 6+4+3=13.
+
+
+
+
+
+
+
+
+
+17) A pangram is a sentence where every letter of the English alphabet appears at least once.
+Given a string sentence containing only lowercase English letters, return true if the sentence is a pangram, or false otherwise.
+ 
+Example 1:
+Input: sentence = "thequickbrownfoxjumpsoverthelazydog"
+Output: true
+Explanation: sentence contains at least one of every letter of the English alphabet.
+
+Example 2:
+Input: sentence = "leetcode"
+Output: false
+
+Constraints:
+1 <= sentence.length <= 1000
+sentence consists of lowercase English letters.
+
+
+18) You are given two strings s and t.
+String t is generated by random shuffling string s and then add one more letter at a random position.
+Return the letter that was added to t.
+ 
+Example 1:
+Input: s = "abcd", t = "abcde"
+Output: "e"
+Explanation: 'e' is the letter that was added.
+
+Example 2:
+Input: s = "", t = "y"
+Output: "y"
+ 
+Constraints:
+0 <= s.length <= 1000
+t.length == s.length + 1
+s and t consist of lowercase English letters.
+
+19) Given an unsorted array arr of size N, rearrange the elements of the array such that the number at the odd index is greater than the number at the previous even index. Print 1 if the array can rearrange according to rules else print 0.
+Example 1:
+Input:
+n = 5
+arr[] = {5, 4, 3, 2, 1}
+Output:
+1
+Explanation:
+The given array after modification
+will be as such: 4 5 2 3 1.
+Example 2:
+Input:
+n = 4
+arr[] = {4, 3, 2, 1}
+Output:
+1
+
+
+20) Given an array A[] consisting of only 0s, 1s, and 2s. The task is to write a function that sorts the given array. The functions should put all 0s first, then all 1s and all 2s in last.
+
+input: {0, 1, 2, 0, 1, 2}
+Output: {0, 0, 1, 1, 2, 2}
+Input: {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1}
+Output: {0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2}
+
+
+21) You are given an array of strings names, and an array of heights that consists of distinct positive integers. Both arrays are of length n.
+For each index i, names[i] and heights[i] denote the name and height of the ith person.
+Return names sorted in descending order by the people's heights.
+ 
+Example 1:
+Input: names = ["Mary","John","Emma"], heights = [180,165,170]
+Output: ["Mary","Emma","John"]
+Explanation: Mary is the tallest, followed by Emma and John.
+
+Example 2:
+Input: names = ["Alice","Bob","Bob"], heights = [155,185,150]
+Output: ["Bob","Alice","Bob"]
+Explanation: The first Bob is the tallest, followed by Alice and the second Bob.
+
+ 
+Constraints:
+n == names.length == heights.length
+1 <= n <= 103
+1 <= names[i].length <= 20
+1 <= heights[i] <= 105
+names[i] consists of lower and upper case English letters.
+All the values of heights are distinct.
+
+
+
+22) Given an array arr[] of size N representing the size of candles which reduce by 1 unit each day. The room is illuminated using the given N candles. Find the maximum number of days the room is without darkness.
+
+Example 1:
+Input:
+N = 3
+arr[] = {1,1,2} 
+Output: 2
+Explanation: The candles' length reduces by 1 in 1 day. 
+So, at the end of day 1: Sizes would be 0 0 1.
+So, at the end of day 2: Sizes would be 0 0 0. 
+This means the room was illuminated for 2 days.
+
+
+Example 2:
+Input:
+N = 5
+arr[] = {2,3,4,2,1} 
+Output: 4
+
+
+23) Mark is a student who used to compare everything. One day he thought of comparing two arrays and check whether it is compatible or not. Two arrays are said to be compatible if they are of the same size and if the ith element in the first array is greater than or equal to the ith element in the second array for all the values of i. Help Mark to write a program to find whether 2 arrays are compatible or not.
+Input Format:
+Input consists of two values and two sets of integers
+The first integer corresponds to ‘n1’, the size of the first array. 
+The next ‘n1’ integers correspond to the elements in the first array. 
+The next (n+1) integer corresponds to 'n2', the size of the second array. 
+The last 'n2' integers correspond to the elements in the second array. 
+Output Format:
+The output consists of any one of the two strings "Compatible" or "Incompatible".
+Sample Input 1:
+5
+2
+3
+6
+8
+1
+5
+1
+1
+1
+1
+1
+Sample Output 1:
+Compatible
+Explanation:
+Both the arrays are of the same size and the ith element in the first array is greater than or equal to the ith element in the second array for all the values of i. Hence the output is Compatible.
+
+
+Sample Input 2:
+5
+2
+3
+6
+8
+1
+5
+1
+1
+1
+1
+2
+Sample Output 2:
+Incompatible
+Explanation:
+The size of both the arrays is not equal and the ith element in the first array is not greater than or equal to the ith element in the second array for all the values of i. Hence the output is Incompatible
+
+24) Assume that the linked list has elements: 20 -> 30 ->  40 ->  NULL
+If we insert 100, it will be added at the beginning of a linked list.
+After insertion, the new linked list will be
+100 -> 20 ->  30 -> 40 -> NULL
+
+
+25) Ruban likes comparing very much as he was very bored he started comparing two strings and conclude whether the two strings are equal or not. Write a C++ program to find whether the given two strings are the same or not using string library functions.
+Input Format:
+Input consists of 2 strings.
+Output Format:
+If two strings are the same, display “Strings are the same”, else display “Strings are not the same”.
+Sample Input 1:
+face 
+face 
+Sample Output 1:
+Strings are the same
+Explanation:
+Here both the inputs are the same and hence it prints Strings are the same.
+Sample Input 2:
+Dinesh
+Rajesh
+Sample Output 2:
+Strings are not the same
+Explanation:
+Here both the inputs are different and hence it prints Strings are not the same.
+
+
+
+26) A character string is said to have period k if it can be formed by concatenating one or more repetitions of another string of length k. For example, the string ”abcabcabcabc” has period 3, since it is formed by 4 repetitions of the string ”abc”. It also has periods 6 (two repetitions of ”abcabc”) and 12 (one
+repetition of ”abcabcabcabc”).
+Write a program to read a character string and determine its smallest period.
+Input Format:
+A string s.
+Output Format:
+Print its smallest period
+Sample Input1:
+abcabcabcabc
+Sample Output1:
+3
+
+
+Sample Input2:
+bb
+Sample Output2:
+1
+
+
+
+
+
+27) You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order, and each of their nodes contains a single digit. Add the two numbers and return the sum as a linked list.
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+ 
+Input: l1 = [2,4,3], l2 = [5,6,4]
+Output: [7,0,8]
+Explanation: 342 + 465 = 807.
+
+Example 2:
+Input: l1 = [0], l2 = [0]
+Output: [0]
+
+
+Constraints:
+
+The number of nodes in each linked list is in the range [1, 100].
+0 <= Node.val <= 9
+It is guaranteed that the list represents a number that does not have leading zeros.
+
+28)You are given an integer array nums. You are initially positioned at the array's first index, and each element in the array represents your maximum jump length at that position.
+
+Return true if you can reach the last index, or false otherwise.
+
+Example 1:
+Input: nums = [2,3,1,1,4]
+Output: true
+Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
+
+
+Example 2:
+Input: nums = [3,2,1,0,4]
+Output: false
+Explanation: You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.
+
+
+29) Given a list of non-negative integers nums, arrange them such that they form the largest number and return it.
+Since the result may be very large, so you need to return a string instead of an integer.
+ 
+Example 1:
+Input: nums = [10,2]
+Output: "210"
+
+Example 2:
+Input: nums = [3,30,34,5,9]
+Output: "9534330"
+
+Constraints:
+1 <= nums.length <= 100
+0 <= nums[i] <= 109
+
+30) Given an array nums of n integers where nums[i] is in the range [1, n], return an array of all the integers in the range [1, n] that do not appear in nums.
+ 
+Example 1:
+Input: nums = [4,3,2,7,8,2,3,1]
+Output: [5,6]
+
+Example 2:
+Input: nums = [1,1]
+Output: [2]
+
+Constraints:
+n == nums.length
+1 <= n <= 105
+1 <= nums[i] <= n
+
+
+
+
+
+
+31) Given a string s, rearrange the characters of s so that any two adjacent characters are not the same.
+Return any possible rearrangement of s or return "" if not possible.
+ 
+
+Example 1:
+Input: s = "aab"
+Output: "aba"
+
+Example 2:
+Input: s = "aaab"
+Output: ""
+
