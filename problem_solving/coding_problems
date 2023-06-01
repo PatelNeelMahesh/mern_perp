@@ -1,18 +1,37 @@
-1) Given an array of size N-1 such that it only contains distinct integers in the range of 
-1 to N. Find the missing element. 
+1. Given an array of size N-1 such that it only contains distinct integers in the range of
+   1 to N. Find the missing element.
 
-Example 1: 
+Example 1:
 Input: N = 5 A[] = {1,2,3,5}
 Output: 4
 
-Example 2: 
+Example 2:
 Input: N = 10 A[] = {1,2,3,4,5,6,7,8,10}
-Output: 9
+Output: 9;
 
+Sol:
+int MissingElement(int arr[],int N){
+int total=(N\*(N+1))/2;
+int sum=0;
+for(int i=0;i<N -1;i++){
+sum+=arr[i];
+}
+int element=total-sum;
+return element;
+}
 
+int main(){
+int N;
+cin>>N;
+int arr[N-1];
+for(int i=0;i<N-1;i++){
+cin>>arr[i];
+}
+int element=MissingElement(arr,N);
+cout<<elemnt;
+}
 
-
-2)  Given two strings denoting non-negative numbers s1 and s2. Calculate the sum of s1 and s2.
+2.  Given two strings denoting non-negative numbers s1 and s2. Calculate the sum of s1 and s2.
 
 Input Format:
 Two strings denoting s1 and s2
@@ -25,8 +44,40 @@ Sample Input:
 Sample Output:
 10434
 
+Sol:
 
+int SumNumber(string s1 && string s2){
+int carry=0;
+string sum;
 
+int a=s1.size()-1;
+int b=s2.size()-1;
+
+while(a>=0 || b>=0 || carry>0){
+int digit1=(a>=0) ? (s1[a]-'0'):0;
+int digit2=(b>=0) ? (s2[b]-'0') :0;
+
+    int sumdigit=digit1+digit2+carry;
+    carry=sumdigit/10;
+    int digit=sumdigit % 10;
+    a--;
+    b--;
+
+}
+}
+
+int main(){
+string s1;
+cin>>s1;
+string s2;
+cin>>s2;
+
+    string sum=SumNumber(s1,s2);
+    cout<<sum;
+
+    return 0
+
+}
 
 
 3) Klaus Mikaelson and his daughter Hope were arguing about who is the smartest person in the family. Klaus who is a world-known Computer Engineer asked Hope who has not yet completed her college to write a program to sort the given array in ascending order. Can you help Hope?
