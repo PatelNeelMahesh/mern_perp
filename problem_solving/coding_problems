@@ -64,6 +64,37 @@ water
 Output :
 terwa
 
+Answer :
+#include <iostream>
+#include <string>
+using namespace std;
+
+string rotateString(string str) {
+    int length = str.length();
+    string rotatedString = "";
+    
+    for (int i = 2; i < length; i++) {
+        rotatedString += str[i];
+    }
+    
+    for (int i = 0; i < 2; i++) {
+        rotatedString += str[i];
+    }
+    
+    return rotatedString;
+}
+
+int main() {
+    string inputString;
+    cin>>inputString;
+    
+    string rotatedString = rotateString(inputString);
+    cout << rotatedString << endl;
+
+    return 0;
+}
+
+
 
 
 
@@ -77,6 +108,43 @@ Output: 1
 Explanation: amazon can be rotated anti
 clockwise by two places, which will make
 it as azonam
+
+Answer : 
+#include <iostream>
+#include <string>
+using namespace std;
+
+bool isRotation(string a, string b) {
+    int lenA = a.length();
+    int lenB = b.length();
+
+    if (lenA != lenB) {
+        return false;
+    }
+
+    for (int i = 0; i < lenA; i++) {
+        if (a[(i + 2) % lenA] != b[i]) {
+            return false;
+        }
+    }
+
+    return true;
+}
+
+int main() {
+    string a, b;
+    cin >> a;
+    cin >> b;
+
+    if (isRotation(a, b)) {
+        cout << 1 << endl;
+    } else {
+        cout << 0 << endl;
+    }
+
+    return 0;
+}
+
 
 
 
