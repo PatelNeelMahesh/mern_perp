@@ -104,6 +104,39 @@ Explanation:
 Here we can compare the 1st value(54)with all the other values,54 is greater than 14 and 25 and hence 54 will get printed in the third position.
 Repeat the same process for all the remaining values to get the output in sorted order.
 
+SOl:
+
+#include <iostream>
+using namespace std;
+
+int HighestNumber(int arr[],int N){
+    for(int i=0;i<N - 1;i++){
+        for(int j=0;j<N- i - 1;j++){
+            if(arr[j]>arr[j + 1]){
+                int temp=arr[j];
+                arr[j]=arr[j + 1];
+                arr[j + 1]=temp;
+            }
+        }
+    }
+}
+
+int main() {
+    int N;
+    cin>>N;
+    int arr[N];
+    for(int i=0;i<N;i++){
+        cin>>arr[i];
+    }
+    
+    HighestNumber(arr,N);
+    
+    for(int i=0;i<N;i++){
+        cout<<arr[i]<<"\n";
+    }
+    return 0;
+}
+
 
 
 
@@ -115,6 +148,20 @@ water
 Output :
 terwa
 
+Sol:
+#include <iostream>
+#include <algorithm>
+#include <string>
+using namespace std;
+int main() {
+    string str;
+    cin>>str;
+    reverse(str.begin(), str.end());
+
+    cout << "Reversed string: " << str << std::endl;
+
+    return 0;
+}
 
 
 
@@ -129,9 +176,48 @@ Explanation: amazon can be rotated anti
 clockwise by two places, which will make
 it as azonam
 
+Sol:
 
 
+#include <iostream>
+#include <string>
+using namespace std;
 
+bool isRotatedByTwoPlaces(string a, string b) {
+    int n = a.length();
+    
+    if (n != b.length()) {
+        return false;
+    }
+    
+    string leftRotation = a.substr(2) + a.substr(0, 2);
+    if (leftRotation == b) {
+        return true;
+    }
+    string rightRotation = a.substr(n - 2) + a.substr(0, n - 2);
+    if (rightRotation == b) {
+        return true;
+    }
+    return false;
+}
+
+int main() {
+     string a, b;
+    cout << "Enter string a: ";
+    cin >> a;
+    cout << "Enter string b: ";
+    cin >> b;
+    
+    bool result = isRotatedByTwoPlaces(a, b);
+    
+    if (result) {
+       cout << "String b can be obtained by rotating string a by exactly 2 places.\n";
+    } else {
+     cout << "String b cannot be obtained by rotating string a by exactly 2 places.\n";
+    }
+    
+    return 0;
+}
 
 
 
