@@ -9,6 +9,35 @@ Example 2:
 Input: N = 10 A[] = {1,2,3,4,5,6,7,8,10}
 Output: 9
 
+#include <iostream>
+#include <string>
+using namespace std;
+
+int finder(int n, int arr[]){
+    int total = (n*(n+1))/2;
+    int sum = 0;
+    for(int i = 0; i<n-1; i++){
+        sum += arr[i];
+    }
+    
+    return total - sum;
+}
+
+int main()
+{
+    int n;
+    int arr[n-1];
+    cin>>n;
+    for(int i = 0; i<n-1; i++){
+        cin>>arr[i];
+    }
+    
+    int ans = finder(n, arr);
+    cout<<ans;
+    return 0;
+}
+
+
 
 
 
@@ -25,6 +54,23 @@ Sample Input:
 Sample Output:
 10434
 
+#include <iostream>
+using namespace std;
+
+int giver(string s, string s1){
+    int n1 = stoi(s);
+    int n2 = stoi(s1);
+    return n1 + n2;
+}
+
+int main()
+{
+    string s, s1;
+    cin>>s>>s1;
+    int ans = giver(s, s1);
+    cout<<ans;
+    return 0;
+}
 
 
 
@@ -122,8 +168,6 @@ int main()
 
     return 0;
 }
-
-
 
 
 
@@ -624,3 +668,8 @@ Example 2:
 Input: s = "aaab"
 Output: ""
 
+
+https://leetcode.com/submissions/detail/961368552/
+https://leetcode.com/submissions/detail/961372836/
+https://leetcode.com/submissions/detail/961363883/
+https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/submissions/
