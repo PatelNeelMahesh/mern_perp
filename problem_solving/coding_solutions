@@ -45,6 +45,8 @@ x=int(input())
 y=int(input())
 print(a[x:x+y])
 
+# 7. Skipped(repeated question)
+
 8.
 nums = [2, 5, 6, 9, 10]
 a = max(nums)
@@ -55,3 +57,86 @@ for i in range(1, min(a, b) + 1):
         d.append(i)
 gcf = max(d)
 print(gcf)
+
+9.
+N=int(input())
+A=[]
+for i in range(N):
+    a=int(input())
+    A.append(a)
+sum_arr=[]
+sub_arr=[]
+low=0
+high=N
+while True:
+    sum_arr.append(sum(A[low:high]))
+    sub_arr.append(A[low:high])
+    high-=1
+    if high==low:
+        low+=1
+        high=N
+    if low==N:
+        break
+print(sub_arr[sum_arr.index(max(sum_arr))])
+
+10.
+g=input()
+s=input()
+g.sort()
+s.sort()
+content_children = 0
+child_index = 0
+cookie_index = 0
+while child_index < len(g) and cookie_index < len(s):
+    if g[child_index] <= s[cookie_index]:
+        content_children += 1
+        child_index += 1
+        cookie_index += 1
+    else:
+        cookie_index += 1
+
+print(content_children)
+
+11.
+a=input()
+a=a[::-1]
+print(a)
+
+12.
+a=input()
+b=input()
+print(a+b)
+
+13.
+a=input()
+count_0=a.count(0)
+count_1=a.count(1)
+print(abs(count_1-count_0))
+
+14.
+a=input()
+b=input()
+a_list = list(a)
+for i in range(len(a_list)):
+    if a_list[i] == '+':
+        a_list[i] = a_list[i-1]
+a = ''.join(a_list)
+print(a==b)
+
+16.
+N=int(input())
+T_S=int(input())
+A=[]
+for i in range(N):
+    a=int(input())
+    A.append(a)
+A.sort(reverse=True)
+print(sum(a[0:T_S]))
+
+17.
+sent = input()
+sent_set = set(sent)
+if len(sent_set) == 26:
+    print(True)
+else:
+    print(False)
