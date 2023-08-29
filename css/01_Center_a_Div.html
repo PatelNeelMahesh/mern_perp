@@ -13,7 +13,28 @@ Topics covered: CSS Positioning, Flexbox, CSS Centering Techniques
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Center a Div</title>
     <style>
-        
+        /* solution 1 */
+        /* body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        } */
+        /* solution 2 */
+        .center-method1{
+            display: flex;
+            align-items: center;
+            /* background-color: pink; */
+            justify-content: center;
+            height: 50vh;
+        }
+        .center-method2{
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* background-color: red; */
+        }
     </style>
 </head>
 <body>
