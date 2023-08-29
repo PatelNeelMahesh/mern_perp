@@ -12,6 +12,25 @@ Topics covered: CSS Inheritance
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Inheritance</title>
+    <style>
+      .parent {
+        font-family: Arial, sans-serif;
+        font-size: 20px;
+        color: pink;
+      }
+
+      .child {
+        font-size: 16px;
+        color: #0074d9;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div class="parent">
+      <p class="child">This is a child paragraph.</p>
+    </div>
+    <div class="parent">
+      <p>This is a Parent paragraph.</p>
+    </div>
+  </body>
 </html>
