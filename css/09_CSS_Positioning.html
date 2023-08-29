@@ -1,0 +1,72 @@
+<!-- 
+9. CSS Positioning
+
+Exercise: Build a layout with multiple positioned elements using relative, absolute, and fixed positioning. Create a navigation bar and a content area to practice positioning.
+
+Topics covered: CSS Positioning 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Positioning</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      .navbar {
+        background-color: #333;
+        color: white;
+        padding: 10px;
+      }
+
+      .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .navbar li {
+        display: inline;
+        margin-right: 10px;
+      }
+
+      .navbar a {
+        text-decoration: none;
+        color: white;
+      }
+
+      .content {
+        text-align: center;
+        padding: 50px;
+      }
+
+      .content h1 {
+        color: #0074d9;
+      }
+
+      .content p {
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="content">
+      <h1>Welcome to our website</h1>
+      <p>We offer a variety of services.</p>
+    </div>
+  </body>
+</html>
