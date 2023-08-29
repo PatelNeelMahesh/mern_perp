@@ -1,0 +1,44 @@
+<!-- 
+2. CSS Selectors
+
+Exercise: Style specific elements on a webpage using various types of CSS selectors, such as class selectors, ID selectors, attribute selectors.
+
+Topics covered: CSS Selectors 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+      /* Universal Selector  */
+      * {
+        background-color: antiquewhite;
+      }
+      /* Class Selector  */
+      .highlight {
+        background-color: yellow;
+      }
+      /* ID Selector */
+      #special {
+        font-weight: bold;
+      }
+      /* Element Selector */
+      a.link {
+        color: blue;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="highlight">This text is highlighted.</p>
+    <p id="special">This text is special.</p>
+    <a href="#" class="link">Click me</a>
+  </body>
+</html>
+
+<!-- Combining Selectors -->
+<!-- Sibling Selectors -->
+<!-- Pesudo Classes -->

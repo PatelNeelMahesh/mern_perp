@@ -1,0 +1,165 @@
+https://flukeout.github.io/
+
+CSS Diner is a very nice place to let you learn CSS very fast. Simply just complete all 32 challenges and make sure you understand the intuition. If you get stuck, read below and again make sure you understand the intuition.
+
+Generally we solve/read the selectors backwards.
+
+Level 1
+
+plate
+Intuition: To select all elements of a type, simply just specify the type.
+
+Level 2
+
+bento
+Intuition: To select all elements of a type, simply just specify the type.
+
+Level 3
+
+#fancy
+Intuition: Use an ID selector. Either use [id=”fancy”] or the shortcut for id, “#”.
+
+Level 4
+
+plate apple
+Intuition: A Descadent Selector lets you select children elements of another element.
+
+Level 5
+
+#fancy pickle
+Intuition: We want a pickle within a parent of id=”plate”. This is a combination of Descedant and ID Selectors.
+
+Level 6
+
+.small
+Intuition: Class selector. The “.small” let us select all elements with class=”small”.
+
+Level 7
+
+orange.small
+Intuition: Combination of the Class Selector. We choose every orange with a class=”small”. Remember we don’t need to write out class, but simply just use the “.” (dot).
+
+Level 8
+
+bento orange.small
+Intuition: Now we use, what we’ve learnt. First we want a bento element with an orange child, that holds the class “small”.
+
+Level 9
+
+bento, plate
+Intuition: Comma Combinator. Use a comma between your selectors to combine them.
+
+Level 10
+
+*
+Intuition: Use the asterisk, “*”, to select everything.
+
+Level 11
+
+plate *
+Intuition: Combine the universal selector.
+
+Level 12
+
+plate + apple
+Intuition: We can use the Adjacent Sibling Selector to choose all apples next to a plate.
+
+Level 13
+
+bento ~ pickle
+Intuition: Use the General Slibling Selector to get all pickle elements next to a bento.
+
+Level 14
+
+plate > apple
+Intuition: We use the Child Selector to chose the apple that are a child of a plate.
+
+Level 15
+
+orange:first-child
+Intuition: To select the first child of a group of children, use the First Child Pseudo-selector.
+
+Level 16
+
+plate > :only-child
+Intuition: Apply the Only Child Pseudo-Selector, “:only-child”, to make sure we only look at the plates that have one child. Then we use the “plate >” to select all children to a plate.
+
+Level 17
+
+.small:last-child
+Intuition: We want to look at only the last children elements, hence we use the Last Child Pseudo-Selector, “:last-child”. The elements is children of the “small” class. Pro Tip: Remember we use the “.” (dot) for class.
+
+Level 18
+
+:nth-child(3)
+Intuition: We use the Nth Child Pseudo-Selector, “nth-child(3)” and simply just specify, that we want to find an element, that is the third child element of another element. If we had more elements, with 3 or more children, we could use “plate:nth-child(3)”.
+
+Level 19
+
+bento:nth-last-child(3)
+Intuition: We select the 3rd child from the end of elements with the Nth Last Child Selector, “:nth-last-child(3)”. Afterwards we tell that we only want to look at “bento” elements.
+
+Level 20
+
+apple:first-of-type
+Intuition: We use the First of Type Selector, “:first-of-type” selector and then specify that we want to look at apples.
+
+Level 21
+
+:nth-of-type(even)
+Intuition: Using the Nth of Type Selector, “:nth-of-type(even)” we select all even elements, in our case plates are the only elements.
+
+Level 22
+
+:nth-of-type(2n+3)
+Intuition: We want to select every second element starting from (and including) the third instance. We could make a it even more specific, if we had different elements with “plate:nth-of-type(2n+3)”.
+
+Level 23
+
+apple:only-of-type
+Intuition: With the Only of Type Selector, “:only-of-type”, we select the element apple, if its the only one of it’s type within their parent element. You might want to narrow the selection with “plate apple:only-of-type”.
+
+Level 24
+
+.small:last-of-type
+Intuition: Using the Last of Type Selector we find the last element of the class small.
+
+Level 25
+
+bento:empty
+Intuition: We use the Empty Selector, “:empty” to find all empty bento’s.
+
+Level 26
+
+apple:not(.small)
+Intuition: Now it’s time for the Negation Pseudo-class, “:not”. Here we select all apples, that don’t hold the class “small”.
+
+Level 27
+
+[for]
+Intuition: We appy the Attribute selector and select all elements with a “for=” attribute.
+
+Level 28
+
+plate[for]
+Intuition: Again we use the attribute selector and specify we want to select all plates with a “for=” attribute.
+
+Level 29
+
+[for="Vitaly"]
+Intuition: To select Vitaly’s meal we apply the Attribute Value Selector and search for the specific for value, “Vitaly”.
+
+Level 30
+
+[for^="Sa"]
+Intuition: Apply the Attribute Starts With Selector and specify the characters, “Sa”.
+
+Level 31
+
+[for$="ato"]
+Intuition: Similar as Level 30 we can use the Attribute Ends With Selector and search for the attribute value of for that ends with “ato”.
+
+Level 32
+
+[for*="obb"]
+Intuition: Apply the Attribute Wildcard Selector for the for attribute with the value “obb”.
