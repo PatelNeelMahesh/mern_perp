@@ -1,9 +1,25 @@
 <!-- 
 9. CSS Positioning
 
-Exercise: Build a layout with multiple positioned elements using relative, absolute, and fixed positioning. Create a navigation bar and a content area to practice positioning.
+Task: Create a webpage with four differently positioned boxes to illustrate the concepts 
+      of static, relative, absolute, and fixed positioning.
 
-Topics covered: CSS Positioning 
+Topics covered: CSS Positioning (Static, Relative, Absolute, Fixed, Sticky)
+-->
+
+<!-- 
+Static: The default positioning. Boxes are placed in the normal flow of the document.
+Relative: Positioned relative to its normal position. The top and left properties move
+          it 20px down and right from its original position.
+Absolute: Positioned relative to its closest positioned ancestor. The top and right 
+          properties position it 20px down from the top and 20px from the right edge of
+          the closest ancestor with a positioned property (body in this case).
+Fixed: Positioned relative to the viewport. The bottom and right properties place it 
+       20px from the bottom and 20px from the right edge of the viewport.
+Sticky: The behavior of position: sticky is demonstrated by positioning the "Sticky" 
+        box 20px from the top. The "Sticky" box remains in the normal flow of the document 
+        until it reaches a specified scroll position (top value), at which point it becomes 
+        fixed to the container.
 -->
 
 <!DOCTYPE html>
@@ -19,54 +35,49 @@ Topics covered: CSS Positioning
         font-family: Arial, sans-serif;
       }
 
-      .navbar {
-        background-color: #333;
-        color: white;
-        padding: 10px;
-      }
-
-      .navbar ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-      }
-
-      .navbar li {
-        display: inline;
-        margin-right: 10px;
-      }
-
-      .navbar a {
-        text-decoration: none;
-        color: white;
-      }
-
-      .content {
+      .box {
+        width: 150px;
+        height: 150px;
+        margin: 20px;
         text-align: center;
-        padding: 50px;
+        line-height: 150px;
+        font-weight: bold;
+        border: 2px solid #0074d9;
       }
 
-      .content h1 {
-        color: #0074d9;
+      .static {
+        position: static;
       }
 
-      .content p {
-        font-size: 18px;
+      .relative {
+        position: relative;
+        top: 20px;
+        left: 20px;
+      }
+
+      .absolute {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+
+      .fixed {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+      }
+
+      .sticky {
+        position: sticky;
+        top: 20px;
       }
     </style>
   </head>
   <body>
-    <nav class="navbar">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="content">
-      <h1>Welcome to our website</h1>
-      <p>We offer a variety of services.</p>
-    </div>
+    <div class="box static">Static</div>
+    <div class="box relative">Relative</div>
+    <div class="box absolute">Absolute</div>
+    <div class="box fixed">Fixed</div>
+    <div class="box sticky">Sticky</div>
   </body>
 </html>
