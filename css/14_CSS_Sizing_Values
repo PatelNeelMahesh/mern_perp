@@ -16,3 +16,27 @@ Use when: You want to create elements that are a specific percentage of the view
 Viewport Width (vw): Similar to vh, the vw unit represents a percentage of the viewport's width.
 
 Use when: You want to create elements that are a specific percentage of the viewport's width. Useful for creating responsive horizontal layouts.
+
+# CSS offer more specialized ways to define sizes and distances
+
+Centimeters (cm): Represents a length in centimeters, which is a real-world unit of measurement. However, due to variations in screen resolutions, this unit isn't often used for web design.
+
+Millimeters (mm): Similar to centimeters, it represents a length in millimeters, which is another real-world unit. Like centimeters, its usage is limited in web design.
+
+Inches (in): Represents a length in inches, which is commonly used in print design but less common for web design due to variations in screen sizes and resolutions.
+
+Points (pt): Represents a length in points, a unit commonly used in typography and print design. One point is approximately 1/72 of an inch. While it's used for font sizing, it's less common for other design elements.
+
+Picas (pc): Represents a length in picas, another print-related unit. One pica is equivalent to 12 points. Similar to points, it's mainly used in typography.
+
+Ch: (ch): Represents the width of the "0" character in the font. Useful for aligning text and creating consistent layouts.
+
+Ex (ex): Represents the height of the "x" character in the font. Similar to "em," it's useful for relative sizing.
+
+Degrees (deg): Represents an angle in degrees. Used in CSS for transformations and animations involving rotation.
+
+Radians (rad): Represents an angle in radians, another unit used for transformations and animations.
+
+Gradients (turn): Represents a turn, where 1 turn is equal to 360 degrees. Used for animations involving rotation.
+
+Fraction (fr): Represents a fraction of the available space within a grid or flex container. It's useful for creating flexible layouts in CSS Grid and Flexbox.
