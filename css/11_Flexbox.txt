@@ -1,0 +1,78 @@
+https://flexboxfroggy.com/
+
+/* Level 1: Align frogs to the end of the pond. */
+justify-content: flex-end;
+
+/* Level 2: Align frogs at the center of the pond. */
+justify-content: center;
+
+/* Level 3: Spread frogs evenly along the pond with space between them. */
+justify-content: space-between;
+
+/* Level 4: Spread frogs evenly along the pond with space around them. */
+justify-content: space-around;
+
+/* Level 5: Spread frogs evenly along the pond with equal space around and between them. */
+justify-content: space-evenly;
+
+/* Level 6: Align frogs to the bottom of the pond. */
+align-items: flex-end;
+
+/* Level 7: Align frogs to the center of the pond horizontally and at the bottom vertically. */
+justify-content: center;
+align-items: flex-end;
+
+/* Level 8: Reverse the order of frogs horizontally. */
+flex-direction: row-reverse;
+
+/* Level 9: Stack frogs vertically. */
+flex-direction: column;
+
+/* Level 10: Reverse the order of frogs vertically. */
+flex-direction: column-reverse;
+
+/* Level 11: Stack frogs vertically with space between them and reverse the order. */
+justify-content: space-between;
+flex-direction: column-reverse;
+
+/* Level 12: Stack frogs horizontally at the bottom of the pond. */
+flex-direction: row;
+align-items: flex-end;
+
+/* Level 13: Stack frogs horizontally and align them to the end of the pond. */
+justify-content: flex-end;
+flex-direction: row-reverse;
+
+/* Level 14: Change the order of the frogs. */
+order: 1;
+
+/* Level 15: Change the order of the frogs to be in reverse. */
+order: -1;
+
+/* Level 16: Move only the third frog to the bottom. */
+align-self: flex-end;
+
+/* Level 17: Wrap frogs into multiple rows. */
+flex-wrap: wrap;
+
+/* Level 18: Wrap frogs into multiple rows and align them to the center. */
+justify-content: center;
+flex-wrap: wrap;
+
+/* Level 19: Move all the frogs to the top of the pond. */
+align-content: flex-start;
+
+/* Level 20: Move all the frogs to the bottom of the pond. */
+align-content: flex-end;
+
+/* Level 21: Move all the frogs to the center of the pond. */
+align-content: center;
+
+/* Level 22: Spread all the frogs along the pond with space between them. */
+align-content: space-between;
+
+/* Level 23: Spread all the frogs along the pond with space around them. */
+align-content: space-around;
+
+/* Level 24: Spread all the frogs along the pond with equal space around and between them. */
+align-content: space-evenly;
