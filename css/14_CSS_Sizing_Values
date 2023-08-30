@@ -1,0 +1,18 @@
+Pixels (px): Pixels are the most common unit of measurement in web design. They represent a fixed size and are not relative to any other element. They provide precise control over element dimensions but can lead to less flexibility in responsive design.
+
+Use when: You need a specific, fixed size element that should not change based on the user's device or settings. For example, border widths, font sizes, and fixed-size images.
+Percentage (%): Percentages are relative units that are calculated based on the size of the parent element. For example, if you set an element's width to 50%, it will take up half the width of its parent container.
+
+Use when: You want an element to be a percentage of its containing element's size. This is commonly used for creating flexible, responsive layouts.
+Em (em): The em unit is relative to the font size of the parent element. If a parent element's font size is 16px, then 1em is equal to 16px. If you set an element's font size to 2em, it will be twice the size of the parent element's font size.
+
+Use when: You want to create a scalable design that respects the font size of the parent element. Useful for typography and responsive layouts.
+Root Em (rem): The rem unit is similar to em but is relative to the root (document) font size, not the parent element's font size. This makes it more predictable and easier to manage in complex layouts.
+
+Use when: You want to create a scalable design with consistent sizing across the entire document. Particularly useful for responsive typography.
+Viewport Height (vh): The vh unit represents a percentage of the viewport's height. For example, 1vh is 1% of the viewport's height.
+
+Use when: You want to create elements that are a specific percentage of the viewport's height. Useful for creating full-height sections.
+Viewport Width (vw): Similar to vh, the vw unit represents a percentage of the viewport's width.
+
+Use when: You want to create elements that are a specific percentage of the viewport's width. Useful for creating responsive horizontal layouts.
