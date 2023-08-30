@@ -1,4 +1,4 @@
-# mern_perp
+# MERN_Preparation
 
 ## HTML
 
@@ -11,10 +11,16 @@
 
 ## CSS
 
-- https://github.com/PatelNeelMahesh/mern_perp/tree/main/css
+- (W3Schools) https://www.w3schools.com/css/default.asp
+- (Github) https://github.com/PatelNeelMahesh/mern_perp/tree/main/css
 - (CSS Selectors) - https://flukeout.github.io/ [Solution: https://github.com/PatelNeelMahesh/mern_perp/blob/main/css/03_CSS_Dinner.txt]
 - (CSS FlexBox) - https://flexboxfroggy.com/ [Solution: https://github.com/PatelNeelMahesh/mern_perp/blob/main/css/11_Flexbox.txt]
 - (CSS Grid) - https://cssgridgarden.com/ [Solution: https://github.com/PatelNeelMahesh/mern_perp/blob/main/css/12_GridGarden.txt]
+
+### Test your html skills from
+
+- W3Schools Quiz: https://www.w3schools.com/css/css_quiz.asp
+- LinedIn Skill Assesment: https://www.linkedin.com/skill-assessments/Cascading%20Style%20Sheets%20(CSS)/quiz-intro/
 
 # For more practice on front end topics you can visit
 
