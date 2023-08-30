@@ -12,6 +12,10 @@
         line-height: 200px;
         margin: 0 auto;
       }
+      .box {
+        width: 10%;
+        height: 10%;
+      }
 
       /* Media queries for different screen sizes */
       @media (max-width: 680px) {
@@ -21,18 +25,24 @@
           height: 100px;
           font-size: 12px;
         }
+        body {
+          background-color: green;
+        }
       }
 
-      @media (min-width: 681px) and (max-width: 768px) {
+      @media (min-width: 681px) and (max-width: 1000px) {
         /* Medium screen */
         .box {
           width: 150px;
           height: 150px;
           font-size: 16px;
         }
+        body {
+          background-color: blue;
+        }
       }
 
-      @media (min-width: 769px) {
+      @media (min-width: 1001px) {
         /* Large screen */
         .box {
           width: 200px;
@@ -43,8 +53,8 @@
     </style>
   </head>
   <body>
-    <div class="box">
-      <p>Responsive Box for Different Screen Sizes</p>
+    <div class="box"> / 10px;
+      <p>Responsive Box for Different Screen Sizes</p> /0.5rem
     </div>
   </body>
 </html>
