@@ -18,4 +18,7 @@ Synonyms of: Call Stack [Program Stack, Control Stack, Runtime Stack, Machine St
     - How a Variable behaves
     - How a Function behaves
     - How an Arrow Function behaves
+
+- Global Space: Any code that you write outside JavaScript functions     
+- Local Space 
  
