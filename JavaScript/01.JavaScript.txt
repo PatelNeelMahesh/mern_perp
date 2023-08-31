@@ -13,3 +13,9 @@
 - Call stack maintains the order of execution of execution contexts.
 
 Synonyms of: Call Stack [Program Stack, Control Stack, Runtime Stack, Machine Stack]
+
+- Hoisting in JavaScript
+    - How a Variable behaves
+    - How a Function behaves
+    - How an Arrow Function behaves
+ 
