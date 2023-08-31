@@ -1,0 +1,11 @@
+- Everything in JavaScript happens inside an Execution Context
+    - Memory (Variable Environment)
+    - Code (Thread of Execution)
+
+- JavaScript is a synchronous single-threaded language.
+
+- Execution Context
+    - Phase 1: Memory Creation Phase
+    - Phase 2: Code Execution Phase
+
+- JS manages execution context using Call Stack
