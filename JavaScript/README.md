@@ -1,6 +1,7 @@
 # JavaScript Assignments for Peactice
 
-- [JS Variables](https://stackblitz.com/edit/web-platform-hpeade?file=script.js,index.html,styles.css){:target="_blank"}
+- <a href="https://stackblitz.com/edit/web-platform-hpeade?file=script.js,index.html,styles.css" target="_blank">Link Text</a>
+- [JS Variables](https://stackblitz.com/edit/web-platform-hpeade?file=script.js,index.html,styles.css){:target="\_blank"}
 - [JS Datatypes](https://stackblitz.com/edit/web-platform-dk53ih?file=index.html,script.js,styles.css){:target="\_blank"}
 - [JS Strings](https://stackblitz.com/edit/web-platform-euc3rl?file=index.html,script.js){:target="\_blank"}
 - [JS Operators](https://stackblitz.com/edit/web-platform-fpcxhy?file=index.html,script.js){:target="\_blank"}
