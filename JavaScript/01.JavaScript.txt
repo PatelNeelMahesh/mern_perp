@@ -21,4 +21,29 @@ Synonyms of: Call Stack [Program Stack, Control Stack, Runtime Stack, Machine St
 
 - Global Space: Any code that you write outside JavaScript functions     
 - Local Space 
- 
+
+- Lexical (hierarchy, in order)
+
+- The scope chain (function a(){functions b(){ function c(){}}})
+
+- Temporal Dead Zone: 
+    - Phase from Hoisting till it initialize a value for [Let & Const] is called 
+      Temporal Dead Zone
+
+- ReferenceError[not initialized]: when you try to access a var in Temporal dead zone  
+
+    - var: can redeclare, can assign value again
+    - let: cannot redeclare, can assign value again
+    - const: cannot redeclare, can not assign value again 
+
+    (Let and Const declaration are hoisted.)
+
+- TypeError vs SyntaxError vs ReferenceError
+
+- Block Scope {}
+    - it's also called as compound statement 
+
+- Shadowing (behaves differently for var & let, const)
+    //var a=10;
+    //{var a = 100;}
+    //console.log(a) //output:100
