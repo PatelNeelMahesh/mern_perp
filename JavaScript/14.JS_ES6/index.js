@@ -120,10 +120,10 @@ console.log(sum(1, 2, 3, 4)); // Output: 10
 // Rest in Array Destructuring:
 // Collect remaining elements into an array.
 
-const [first, ...rest] = [1, 2, 3, 4, 5];
+const [first, ...rests] = [1, 2, 3, 4, 5];
 
 console.log(first); // Output: 1
-console.log(rest); // Output: [2, 3, 4, 5]
+console.log(rests); // Output: [2, 3, 4, 5]
 
 // Rest in Object Destructuring:
 // Collect remaining object properties into an object.
