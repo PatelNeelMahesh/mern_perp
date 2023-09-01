@@ -47,3 +47,15 @@ Synonyms of: Call Stack [Program Stack, Control Stack, Runtime Stack, Machine St
     //var a=10;
     //{var a = 100;}
     //console.log(a) //output:100
+
+- Closures: A function bundled together with it's Lexical Scope
+
+    - Uses of Closures:
+        - Currying
+        - once()
+        - Memoize
+        - maintains state in async 
+        - setTimeouts
+        - Iterators
+        - Module Design Pattern 
+        - & many more ...
