@@ -203,4 +203,19 @@ person.set("name", "Rahul");
 person.set("age", 30);
   
 console.log("Map: Name -", person.get("name"), "Age -", person.get("age"));
+
+// Modules
+// JavaScript modules are a feature of ECMAScript 6 (ES6) that provide a way to organize and reuse code. A module is a piece of code that can be exported and imported by other scripts.
   
+// exported module:
+// math.js
+export const PI = 3.14;
+export function calculateCircumference(diameter) {
+  return PI * diameter;
+}
+
+// imported module
+// main.js
+import { PI, calculateCircumference } from './math.js';
+console.log(PI); // 3.14
+console.log(calculateCircumference(10)); // 31.4
