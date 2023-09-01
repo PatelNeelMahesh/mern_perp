@@ -68,13 +68,6 @@ const greetPerson = (name = "Guest") => {
 
 console.log("Default Parameters:", greetPerson("Priya"));
   
-// Spread Operator
-// The spread operator (...) allows for the expansion of elements in arrays, objects, and function arguments. It simplifies operations like concatenating arrays.
-const cities = ["Mumbai", "Delhi", "Bangalore"];
-const moreCities = ["Chennai", "Kolkata", ...cities];
-
-console.log("Spread Operator: Cities -", moreCities.join(", "));
-  
 // Classes
 // Classes provide a more structured way to define objects and their behavior in JavaScript, following the principles of object-oriented programming (OOP).
 class Car {
@@ -89,6 +82,7 @@ class Car {
 }
   
 const myCar = new Car("Maruti", "Swift");
+console.log("Classes: My Car -", myCar.getCarInfo()); 
   
 // Promises
 // Promises are used for handling asynchronous operations in a more organized and readable manner. They offer better error handling and a more structured flow for asynchronous code.
@@ -113,10 +107,85 @@ fetchData()
   
 // Rest Operator
 // The rest operator (...) gathers multiple function arguments into an array, simplifying the handling of variable-length argument lists.
-const sum = (...numbers) => {
-    return numbers.reduce((total, number) => total + number, 0);
-};
-console.log("Classes: My Car -", myCar.getCarInfo()); 
+
+// Rest in Function Parameters:
+// The rest operator collects remaining function arguments into an array.
+
+function sum(...numbers) {
+  return numbers.reduce((total, number) => total + number, 0);
+}
+
+console.log(sum(1, 2, 3, 4)); // Output: 10
+
+// Rest in Array Destructuring:
+// Collect remaining elements into an array.
+
+const [first, ...rest] = [1, 2, 3, 4, 5];
+
+console.log(first); // Output: 1
+console.log(rest); // Output: [2, 3, 4, 5]
+
+// Rest in Object Destructuring:
+// Collect remaining object properties into an object.
+
+const { a, ...rest } = { a: 1, b: 2, c: 3 };
+
+console.log(a); // Output: 1
+console.log(rest); // Output: { b: 2, c: 3 }
+
+// Spread Operator
+// The spread operator (...) allows for the expansion of elements in arrays, objects, and function arguments. It simplifies operations like concatenating arrays.
+const cities = ["Mumbai", "Delhi", "Bangalore"];
+const moreCities = ["Chennai", "Kolkata", ...cities];
+
+console.log("Spread Operator: Cities -", moreCities.join(", "));
+
+// Spread in Function Arguments:
+// Spread elements of an array into function arguments.
+
+function multiply(x, y, z) {
+  return x * y * z;
+}
+
+const values = [2, 3, 4];
+console.log(multiply(...values)); // Output: 24
+
+// Spread in Array Creation:
+// Create a new array by spreading elements from an existing array.
+
+const arr1 = [1, 2, 3];
+const arr2 = [...arr1, 4, 5];
+
+console.log(arr2); // Output: [1, 2, 3, 4, 5]
+
+// Spread in Object Properties:
+// Create a new object by spreading properties from an existing object.
+
+const obj1 = { a: 1, b: 2 };
+const obj2 = { ...obj1, c: 3 };
+
+console.log(obj2); // Output: { a: 1, b: 2, c: 3 }
+
+// Spread for Cloning Objects:
+// Create a new object with the same properties as an existing one (shallow copy).
+
+const original = { x: 1, y: 2 };
+const clone = { ...original };
+
+console.log(clone); // Output: { x: 1, y: 2 }
+
+// Spread for Merging Arrays:
+// Merge multiple arrays into one.
+
+const arr_1 = [1, 2];
+const arr_2 = [3, 4];
+const mergedArray = [...arr_1, ...arr_2];
+
+console.log(mergedArray); // Output: [1, 2, 3, 4]
+
+// Rest Operator (...): It's used to collect multiple values (parameters, elements, properties) into a single array or object.
+
+// Spread Operator (...): It's used to spread (expand) the elements of an array or the properties of an object into another array or object, effectively making copies or combining them.
   
 // Set
 // Sets are collections of unique values, allowing you to work with distinct elements. They are useful when you need to ensure uniqueness in a collection of data.
