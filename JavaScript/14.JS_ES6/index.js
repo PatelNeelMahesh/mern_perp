@@ -18,7 +18,48 @@ console.log("Template Literals:", greeting);
 const [firstCar, secondCar] = ["Maruti", "Hyundai"];
 
 console.log("Destructuring: First Car -", firstCar, "Second Car -", secondCar);
-  
+
+// Basic Array Destructuring:
+
+const colors = ["red", "green", "blue"];
+const [firstColor, secondColor, thirdColor] = colors;
+
+console.log(firstColor); // Output: "red"
+console.log(secondColor); // Output: "green"
+console.log(thirdColor); // Output: "blue"
+
+// Skipping Elements:
+
+const fruits = ["apple", "banana", "cherry", "date"];
+const [firstFruit, , , lastFruit] = fruits;
+
+console.log(firstFruit); // Output: "apple"
+console.log(lastFruit); // Output: "date"
+
+// Rest Operator in Array Destructuring:
+
+const numbers = [1, 2, 3, 4, 5];
+const [firstNumber, ...restNumbers] = numbers;
+
+console.log(firstNumber); // Output: 1
+console.log(restNumbers); // Output: [2, 3, 4, 5]
+
+// Nested Object Destructuring:
+
+const employee = {
+  name: "Bob",
+  job: {
+    title: "Developer",
+    department: "Engineering",
+  },
+};
+const { name, job: { title, department } } = employee;
+
+console.log(name); // Output: "Bob"
+console.log(title); // Output: "Developer"
+console.log(department); // Output: "Engineering"
+
+
 // Default Parameters
 // Default parameters allow functions to have default values for parameters if no argument or undefined is provided, making functions more flexible and self-explanatory.
 const greetPerson = (name = "Guest") => {
