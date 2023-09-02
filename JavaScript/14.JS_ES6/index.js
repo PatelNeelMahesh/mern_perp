@@ -209,13 +209,13 @@ console.log("Map: Name -", person.get("name"), "Age -", person.get("age"));
   
 // exported module:
 // math.js
-export const PI = 3.14;
-export function calculateCircumference(diameter) {
-  return PI * diameter;
-}
+// export const PI = 3.14;
+// export function calculateCircumference(diameter) {
+//   return PI * diameter;
+// }
 
 // imported module
 // main.js
-import { PI, calculateCircumference } from './math.js';
-console.log(PI); // 3.14
-console.log(calculateCircumference(10)); // 31.4
+// import { PI, calculateCircumference } from './math.js';
+// console.log(PI); // 3.14
+// console.log(calculateCircumference(10)); // 31.4
