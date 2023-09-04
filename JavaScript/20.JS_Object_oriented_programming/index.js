@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/introduction-object-oriented-programming-javascript/
+
 // JavaScript is a powerful programming language that supports both object-oriented and functional programming paradigms. Object-oriented programming is a programming paradigm that is purely based on the concept of "objects", which contains data about the objects. The other core concept of OOP is "classes" which makes the code more secure and encapsulated.
 
 // Example 1: Constructor Function - Person
