@@ -30,6 +30,12 @@ document.addEventListener("click", () => {
 });
 console.log("Example 3: End");
 
+// A callback is a function that is passed as an argument to another function and is executed after the first function is finished. This allows for non-blocking code execution, as the program can continue to run while the callback function is waiting to be executed.
+
+// Callbacks can be used in many of the JavaScript built-in functions such as setTimeout() and setInterval()
+
+// using too many callbacks can lead to a phenomenon called "callback hell" where the code becomes difficult to read and understand due to the nested structure of the callbacks. To avoid this, you can use modern JavaScript features such as Promises and async/await.
+
 // Example 4: Promise
 // a Promise resolves after 1.5 seconds, and its .then callback executes when the Promise is resolved.
 
