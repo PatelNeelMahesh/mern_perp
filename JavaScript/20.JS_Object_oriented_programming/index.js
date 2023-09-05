@@ -3,6 +3,23 @@
 // JavaScript is a powerful programming language that supports both object-oriented and functional programming paradigms. Object-oriented programming is a programming paradigm that is purely based on the concept of "objects", which contains data about the objects. The other core concept of OOP is "classes" which makes the code more secure and encapsulated.
 
 // Example 1: Constructor Function - Person
+
+// Constructor:
+// A constructor is a special method that gets called when you create an instance (object) of a class.
+// It initializes the object's properties and sets up the initial state.
+// Constructors are defined using the constructor keyword within a class.
+
+// this Keyword:
+// In a constructor or class method, this refers to the current instance of the class.
+// It allows you to access and modify instance-specific properties and methods.
+
+// class Vehicle {
+//   constructor(make, model) {
+//     this.make = make;
+//     this.model = model;
+//   }
+// }
+
 // We define a constructor function Person that creates person objects with name and age properties.
 
 function Person(name, age) {
@@ -62,3 +79,50 @@ const car_2 = new Car("Honda", "Civic");
 
 console.log(`Example 3: ${car_1.getCarInfo()}`);
 console.log(`Example 3: ${car_2.getCarInfo()}`);
+
+// super Keyword:
+
+// In a derived class (subclass), super is used to call the constructor of the parent class (superclass).
+// It allows you to inherit properties and behaviors from the parent class while customizing the behavior in the derived class.
+
+// extends Keyword:
+
+// The extends keyword is used to create a subclass that inherits from a parent class.
+// It establishes an "is-a" relationship, where the subclass "is a" specialized version of the parent class.
+
+// class Car extends Vehicle {
+//   constructor(make, model, year) {
+//     super(make, model); // Calls the constructor of the parent class
+//     this.year = year;
+//   }
+// }
+
+class Vehicle {
+  constructor(make, model) {
+    this.make = make;
+    this.model = model;
+  }
+
+  getInfo() {
+    return `${this.make} ${this.model}`;
+  }
+}
+
+class Car extends Vehicle {
+  constructor(make, model, year) {
+    super(make, model); // Calls the constructor of the parent class
+    this.year = year;
+  }
+
+  getFullInfo() {
+    return `${this.getInfo()}, Year: ${this.year}`;
+  }
+}
+
+const car1 = new Car("Toyota", "Camry", 2022);
+console.log(car1.getFullInfo()); // Outputs: Toyota Camry, Year: 2022
+
+// Vehicle is the parent class with a constructor and a method.
+// Car is the subclass that extends Vehicle and adds its own constructor and method.
+// The super keyword is used in the Car constructor to call the Vehicle constructor and inherit its properties.
+// The this keyword is used to access instance-specific properties and methods.
