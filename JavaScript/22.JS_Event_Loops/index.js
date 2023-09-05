@@ -32,6 +32,9 @@ console.log("Example 3: End");
 
 // Example 4: Promise
 // a Promise resolves after 1.5 seconds, and its .then callback executes when the Promise is resolved.
+
+// Promises in JavaScript are a way to handle asynchronous operations more effectively. They provide a structured approach for managing asynchronous code, making it easier to handle success and error conditions. Promises are crucial because they help prevent callback hell (nested callbacks) and simplify asynchronous code, improving code readability and maintainability.
+
 console.log("Example 4: Start");
 const promise = new Promise((resolve, reject) => {
   setTimeout(() => {
