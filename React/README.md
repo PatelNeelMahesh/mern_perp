@@ -6,7 +6,7 @@ We have created applications up to this point that used HTML pages that the serv
 
 When building simple websites, this method works well, but every time a user clicks a link or needs to view or send data, the entire page must be refreshed, slowing down user interaction.
 
-https://www.mindk.com/wp-content/uploads/2017/12/Traditional-page-lifecycle-8-560x315.png
+<img src="https://www.mindk.com/wp-content/uploads/2017/12/Traditional-page-lifecycle-8-560x315.png"/>
 
 A superior strategy has recently become more popular.
 
@@ -31,7 +31,7 @@ By being closer to or having the ability to interface with the essential resourc
 
 Single-page applications are frequently created using this client-server architecture. The majority of a user's interactions with a web application take place on a single page, or SPA (single page application).
 
-https://www.mindk.com/wp-content/uploads/2017/12/SPA-page-lifecycle-560x315.png
+<img src="https://www.mindk.com/wp-content/uploads/2017/12/SPA-page-lifecycle-560x315.png" />
 
 All of the views that we require for our entire application, loading data from the back-end, will be on this page (Node API).
 
