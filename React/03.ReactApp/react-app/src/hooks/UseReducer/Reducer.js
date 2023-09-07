@@ -12,11 +12,19 @@ const reducer = (state, action) => {
 };
 
 const Reducer = () => {
+  //const [count, setCount] = useState(0);
+  //const [showText, setShowText] = useState(true);
   const [state, dispatch] = useReducer(reducer, { count: 0, showText: true });
 
   return (
     <div>
       <h1>{state.count}</h1>
+      {/* <button
+        onClick={() => {
+          setCount(count+1);
+          setShowText(!showText);
+        }}
+      >Click Here </button> */}
       <button
         onClick={() => {
           dispatch({ type: "INCREMENT" });
