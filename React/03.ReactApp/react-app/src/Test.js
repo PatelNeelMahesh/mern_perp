@@ -3,6 +3,7 @@ import CounterFunctional from "./components/Functional";
 import CounterClass from "./components/Classbased";
 import State from "./hooks/UseState/State";
 import Effect from "./hooks/UseEffect/Effect";
+import Reducer from "./hooks/UseReducer/Reducer";
 
 function Test() {
   return (
@@ -11,6 +12,7 @@ function Test() {
       <CounterClass />
       <State />
       <Effect />
+      <Reducer />
     </>
   );
 }
