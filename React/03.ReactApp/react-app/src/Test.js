@@ -8,6 +8,7 @@ import LayoutEffect from "./hooks/UseLayoutEffect/LayoutEffect";
 import Ref from "./hooks/UseRef/Ref";
 import Context from "./hooks/UseContext/Contect";
 import Memo from "./hooks/useMemo/Memo";
+import CallBack from "./hooks/UseCallback/Callback";
 
 function Test() {
   return (
@@ -21,6 +22,7 @@ function Test() {
       <Ref />
       <Context />
       <Memo />
+      <CallBack />
     </>
   );
 }
