@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+// https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
 class CounterClass extends Component {
   constructor(props) {
     console.log("Constructor");
