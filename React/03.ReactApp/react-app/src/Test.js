@@ -13,16 +13,16 @@ import CallBack from "./hooks/UseCallback/Callback";
 function Test() {
   return (
     <>
-      <CounterFunctional />
+      {/* <CounterFunctional /> */}
       <CounterClass />
-      <State />
+      {/* <State />
       <Effect />
       <Reducer />
       <LayoutEffect />
       <Ref />
       <Context />
       <Memo />
-      <CallBack />
+      <CallBack /> */}
     </>
   );
 }

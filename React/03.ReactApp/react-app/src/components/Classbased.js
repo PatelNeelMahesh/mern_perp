@@ -2,10 +2,21 @@ import React, { Component } from "react";
 
 class CounterClass extends Component {
   constructor(props) {
+    console.log("Constructor");
     super(props);
     this.state = {
       count: 0,
     };
+  }
+  componentDidMount() {
+    console.log("componentDidMount");
+  }
+
+  componentDidUpdate() {
+    console.log("componentDidUpdate");
+  }
+  componentWillUnmount() {
+    console.log("componentWillUnmount");
   }
 
   increment = () => {
