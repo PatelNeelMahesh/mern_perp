@@ -5,12 +5,16 @@ export default function CallBack() {
   const [toggle, setToggle] = useState(false);
   const [data, setData] = useState("Data");
 
-  const returnComment = useCallback(
-    (name) => {
-      return data + name;
-    },
-    [data]
-  );
+  //   const returnComment = useCallback(
+  //     (name) => {
+  //       return data + name;
+  //     },
+  //     [data]
+  //   );
+
+  const returnComment = () => {
+    return data;
+  };
 
   return (
     <div className="App">
