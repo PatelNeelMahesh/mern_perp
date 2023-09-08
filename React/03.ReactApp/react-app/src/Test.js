@@ -6,6 +6,7 @@ import Effect from "./hooks/UseEffect/Effect";
 import Reducer from "./hooks/UseReducer/Reducer";
 import LayoutEffect from "./hooks/UseLayoutEffect/LayoutEffect";
 import Ref from "./hooks/UseRef/Ref";
+import Context from "./hooks/UseContext/Contect";
 
 function Test() {
   return (
@@ -17,6 +18,7 @@ function Test() {
       <Reducer />
       <LayoutEffect />
       <Ref />
+      <Context />
     </>
   );
 }
