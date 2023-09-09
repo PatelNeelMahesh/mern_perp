@@ -24,6 +24,8 @@
 - https://github.com/sudheerj/reactjs-interview-questions
 - https://www.interviewbit.com/react-interview-questions/
 
+### React Coding Questions: https://codeinterview.io/blog/reactjs-coding-interview-questions/
+
 ## Mock Interviews
 
 - JavaScript Mock Interview: https://www.youtube.com/watch?v=8eRVxE9PEF0&list=PL9qDYKb1dFMBScm5OBuQ-nweAjEtGqv42&index=10
