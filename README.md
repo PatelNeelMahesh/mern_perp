@@ -18,6 +18,8 @@
 - https://www.interviewbit.com/javascript-interview-questions/
 - https://www.interviewbit.com/javascript-interview-questions/
 
+### JavaScript Coding Questions: https://www.keka.com/javascript-coding-interview-questions-and-answers
+
 ## React
 
 - https://www.turing.com/interview-questions/react-js
