@@ -1,11 +1,20 @@
 # MERN_Preparation
 
-## Interview Questions
-
 ## HTML
+
+- Learn From: https://www.w3schools.com/html/
+
+### Interview Questions
 
 - https://www.interviewbit.com/html-interview-questions/
 - https://www.geeksforgeeks.org/html-interview-questions-answers-set-1/
+
+### Test your html skills from
+
+- W3Schools HTML Quiz : https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML
+- LinkedIn Skill Assessment : https://www.linkedin.com/skill-assessments/HTML/quiz-intro/
+- https://www.vskills.in/practice/html
+- https://www.vskills.in/practice/html5
 
 ## CSS
 
@@ -35,15 +44,6 @@
 - React.JS Mock Interview: https://www.youtube.com/watch?v=6qERg1Yt1QQ&list=PL9qDYKb1dFMBScm5OBuQ-nweAjEtGqv42&index=4
 - React.JS Mock Interview: https://www.youtube.com/watch?v=7JG-VwMiTgE&list=PL9qDYKb1dFMBScm5OBuQ-nweAjEtGqv42&index=28
 - MERN Stack Interview Questions: https://www.youtube.com/watch?v=HlLsWeyn0wE&list=PL9qDYKb1dFMBScm5OBuQ-nweAjEtGqv42&index=40
-
-## HTML
-
-- Learn From: https://www.w3schools.com/html/
-
-### Test your html skills from
-
-- W3Schools HTML Quiz : https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML
-- LinkedIn Skill Assessment : https://www.linkedin.com/skill-assessments/HTML/quiz-intro/
 
 ## CSS
 
