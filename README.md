@@ -13,13 +13,28 @@
 
 - W3Schools HTML Quiz : https://www.w3schools.com/quiztest/quiztest.asp?qtest=HTML
 - LinkedIn Skill Assessment : https://www.linkedin.com/skill-assessments/HTML/quiz-intro/
-- https://www.vskills.in/practice/html
-- https://www.vskills.in/practice/html5
+- HTML Practice Questions: https://www.vskills.in/practice/html
+- HTML5: https://www.vskills.in/practice/html5
 
 ## CSS
 
+- (W3Schools) https://www.w3schools.com/css/default.asp
+- (Github) https://github.com/PatelNeelMahesh/mern_perp/tree/main/css
+- (CSS Selectors) - https://flukeout.github.io/ [Solution: https://github.com/PatelNeelMahesh/mern_perp/blob/main/css/03_CSS_Dinner.txt]
+- (CSS FlexBox) - https://flexboxfroggy.com/ [Solution: https://github.com/PatelNeelMahesh/mern_perp/blob/main/css/11_Flexbox.txt]
+- (CSS Grid) - https://cssgridgarden.com/ [Solution: https://github.com/PatelNeelMahesh/mern_perp/blob/main/css/12_GridGarden.txt]
+
+### Interview Questions
+
 - https://www.geeksforgeeks.org/css-interview-questions-and-answers/
 - https://www.interviewbit.com/css-interview-questions/
+
+### Test your CSS skills from
+
+- HTML/CSS: https://app.testdome.com/screening/challenge/13?hard=false
+- CSS3: https://www.vskills.in/practice/css3
+- W3Schools Quiz: https://www.w3schools.com/css/css_quiz.asp
+- LinedIn Skill Assesment: https://www.linkedin.com/skill-assessments/Cascading%20Style%20Sheets%20(CSS)/quiz-intro/
 
 ## JavaScript
 
@@ -44,19 +59,6 @@
 - React.JS Mock Interview: https://www.youtube.com/watch?v=6qERg1Yt1QQ&list=PL9qDYKb1dFMBScm5OBuQ-nweAjEtGqv42&index=4
 - React.JS Mock Interview: https://www.youtube.com/watch?v=7JG-VwMiTgE&list=PL9qDYKb1dFMBScm5OBuQ-nweAjEtGqv42&index=28
 - MERN Stack Interview Questions: https://www.youtube.com/watch?v=HlLsWeyn0wE&list=PL9qDYKb1dFMBScm5OBuQ-nweAjEtGqv42&index=40
-
-## CSS
-
-- (W3Schools) https://www.w3schools.com/css/default.asp
-- (Github) https://github.com/PatelNeelMahesh/mern_perp/tree/main/css
-- (CSS Selectors) - https://flukeout.github.io/ [Solution: https://github.com/PatelNeelMahesh/mern_perp/blob/main/css/03_CSS_Dinner.txt]
-- (CSS FlexBox) - https://flexboxfroggy.com/ [Solution: https://github.com/PatelNeelMahesh/mern_perp/blob/main/css/11_Flexbox.txt]
-- (CSS Grid) - https://cssgridgarden.com/ [Solution: https://github.com/PatelNeelMahesh/mern_perp/blob/main/css/12_GridGarden.txt]
-
-### Test your CSS skills from
-
-- W3Schools Quiz: https://www.w3schools.com/css/css_quiz.asp
-- LinedIn Skill Assesment: https://www.linkedin.com/skill-assessments/Cascading%20Style%20Sheets%20(CSS)/quiz-intro/
 
 # For more practice on front end topics you can visit
 
