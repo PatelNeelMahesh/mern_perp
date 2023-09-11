@@ -49,7 +49,7 @@
 ### Test your JavaScript skills from
 
 - JavaScript: https://app.testdome.com/screening/challenge/14?hard=false
-- JavaScript Developer:  https://www.vskills.in/practice/javascript-developer
+- JavaScript Developer: https://www.vskills.in/practice/javascript-developer
 - Web Developer: https://app.testdome.com/screening/challenge/16?hard=false
 - Front-End Web Development: https://www.vskills.in/practice/front-end-web-development-practice-questions
 
@@ -60,6 +60,20 @@
 - https://www.interviewbit.com/react-interview-questions/
 
 ### React Coding Questions: https://codeinterview.io/blog/reactjs-coding-interview-questions/
+
+### Test your React skills from
+
+- React: https://app.testdome.com/screening/challenge/104?hard=false
+- React Redux: https://app.testdome.com/screening/challenge/254?hard=false
+- React Practice: https://www.vskills.in/practice/reactjs-practice-questions
+
+## MERN
+
+### Test your MERN skills from
+
+- JavaScript and Node.js: https://app.testdome.com/screening/challenge/111?hard=false
+- MERN : https://www.vskills.in/practice/mern-stack-questions
+- Nodejs : https://www.vskills.in/practice/nodejs
 
 ## Mock Interviews
 
