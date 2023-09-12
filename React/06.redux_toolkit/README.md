@@ -28,10 +28,10 @@ Let's walk through a simple example of how to use Redux Toolkit to manage a coun
 
    ```jsx
    // counterSlice.js
-   import { createSlice } from '@reduxjs/toolkit';
+   import { createSlice } from "@reduxjs/toolkit";
 
    const counterSlice = createSlice({
-     name: 'counter',
+     name: "counter",
      initialState: {
        value: 0,
      },
@@ -53,8 +53,8 @@ Let's walk through a simple example of how to use Redux Toolkit to manage a coun
 
    ```jsx
    // store.js
-   import { configureStore } from '@reduxjs/toolkit';
-   import counterReducer from './counterSlice';
+   import { configureStore } from "@reduxjs/toolkit";
+   import counterReducer from "./counterSlice";
 
    const store = configureStore({
      reducer: {
@@ -69,17 +69,17 @@ Let's walk through a simple example of how to use Redux Toolkit to manage a coun
 
    ```jsx
    // index.js
-   import React from 'react';
-   import ReactDOM from 'react-dom';
-   import { Provider } from 'react-redux';
-   import store from './store';
-   import App from './App';
+   import React from "react";
+   import ReactDOM from "react-dom";
+   import { Provider } from "react-redux";
+   import store from "./store";
+   import App from "./App";
 
    ReactDOM.render(
      <Provider store={store}>
        <App />
      </Provider>,
-     document.getElementById('root')
+     document.getElementById("root")
    );
    ```
 
@@ -87,9 +87,9 @@ Let's walk through a simple example of how to use Redux Toolkit to manage a coun
 
    ```jsx
    // Counter.js
-   import React from 'react';
-   import { useDispatch, useSelector } from 'react-redux';
-   import { increment, decrement } from './counterSlice';
+   import React from "react";
+   import { useDispatch, useSelector } from "react-redux";
+   import { increment, decrement } from "./counterSlice";
 
    const Counter = () => {
      const dispatch = useDispatch();
@@ -108,3 +108,41 @@ Let's walk through a simple example of how to use Redux Toolkit to manage a coun
    ```
 
 Now, you have a simple Redux Toolkit example with a counter. It demonstrates the use of slices, action creators, and the Redux store configuration. Redux Toolkit simplifies many aspects of Redux development, making it more efficient and reducing boilerplate code.
+
+We import several functions and components from both `react-redux` and `@reduxjs/toolkit`:
+
+**Imports from `react-redux`:**
+
+1. `useSelector`: This is a hook provided by `react-redux` that allows you to select and read data from the Redux store. It takes a selector function as an argument and returns the selected data from the store.
+
+   ```javascript
+   import { useSelector } from "react-redux";
+   ```
+
+2. `useDispatch`: Another hook provided by `react-redux`, `useDispatch` gives you access to the Redux store's `dispatch` function. You can use it to dispatch actions to the Redux store.
+
+   ```javascript
+   import { useDispatch } from "react-redux";
+   ```
+
+**Imports from `@reduxjs/toolkit`:**
+
+1. `createSlice`: `createSlice` is a function provided by `@reduxjs/toolkit` that simplifies the process of creating Redux slices. A slice includes a reducer, action creators, and an initial state. It's used to define a part of your Redux store's state and logic.
+
+   ```javascript
+   import { createSlice } from "@reduxjs/toolkit";
+   ```
+
+2. `configureStore`: `configureStore` is another function from `@reduxjs/toolkit` that simplifies the setup of your Redux store. It takes an object that specifies the reducer and other store configurations.
+
+   ```javascript
+   import { configureStore } from "@reduxjs/toolkit";
+   ```
+
+3. `createAsyncThunk`: `createAsyncThunk` is a utility provided by `@reduxjs/toolkit` to simplify asynchronous action creators, such as making API requests and handling the associated loading and error states. It generates action creators for pending, fulfilled, and rejected actions.
+
+   ```javascript
+   import { createAsyncThunk } from "@reduxjs/toolkit";
+   ```
+
+These imports are used to set up Redux state management, create Redux slices, and use hooks to access and dispatch actions to the Redux store in a React application.
