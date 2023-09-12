@@ -21,7 +21,7 @@ Let's walk through a simple example of how to use Redux Toolkit to manage a coun
 1. First, you need to install `redux` and `@reduxjs/toolkit`:
 
    ```bash
-   npm install redux @reduxjs/toolkit
+   npm install react-redux @reduxjs/toolkit
    ```
 
 2. Create a slice that includes the reducer and action creators for your counter:
