@@ -1,5 +1,6 @@
 // counterSlice.js
 import { createSlice } from "@reduxjs/toolkit";
+// createSlice simplifies the process of creating Redux slices. A slice includes a reducer, action creators, and an initial state. It's used to define a part of your Redux store's state and logic.
 
 const counterSlice = createSlice({
   name: "counter",

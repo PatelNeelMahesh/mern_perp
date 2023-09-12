@@ -15,6 +15,8 @@ import { configureStore } from "@reduxjs/toolkit";
 import counterReducer from "../Slice/counterSlice";
 import toggleReducer from "../Slice/toggleSlice";
 
+// configureStore simplifies the setup of your Redux store. It takes an object that specifies the reducer and other store configurations.
+
 const initialState = {
   counter: {
     value: 0,
