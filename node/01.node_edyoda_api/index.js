@@ -23,7 +23,11 @@ app.get("/details", async (req, res) => {
   res.send(document);
 });
 
+app.get("/ex", async (req, res) => {
+  res.send("express says hello");
+});
+
 // Start the server
 app.listen(8000, () => {
-  console.log("Server is listening on port 3000");
+  console.log("Server is listening on port 8000");
 });
