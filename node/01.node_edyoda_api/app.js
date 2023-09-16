@@ -2,7 +2,7 @@ const express = require("express");
 const { MongoClient } = require("mongodb");
 
 const app = express();
-const port = 3000;
+const port = 8000;
 
 // MongoDB Connection URI (Replace with your MongoDB connection string)
 const uri = "mongodb://127.0.0.1:27017/edyoda";
