@@ -71,6 +71,10 @@
 
 - MongoDB Complete Course: https://www.youtube.com/watch?v=rU9ZODw5yvU&t=4366s
 
+## NodeJS
+
+- https://github.com/PatelNeelMahesh/mern_perp/tree/main/node/01.node_edyoda_api
+
 ## MERN
 
 ### Test your MERN skills from
