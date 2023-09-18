@@ -80,7 +80,7 @@ app.listen(8000, () => {
 // GET http://localhost:8000/items/1
 
 // Update an item by ID (PUT):
-// http://localhost:8000/items/1
+// PUT http://localhost:8000/items/1
 // {"id": "1", "name": "Updated Item 1"}
 
 // Delete an item by ID (DELETE):
