@@ -9,8 +9,8 @@ Make sure you have Node.js installed on your machine. You can download it from t
 Create a new directory for your Express project and navigate to it in your terminal.
 
 ```bash
-mkdir express-demo
-cd express-demo
+mkdir express
+cd express
 ```
 
 **Step 3: Initialize a Node.js Project**
