@@ -1,11 +1,9 @@
-import ItemsList from "./ItemsList";
+import ItemForm from "./ItemForm";
 
 function App() {
   return (
     <div className="App">
-      <p>App</p>
-      <h3>Crud</h3>
-      <ItemsList />
+      <ItemForm />
     </div>
   );
 }
