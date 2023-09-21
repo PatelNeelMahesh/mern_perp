@@ -100,3 +100,18 @@ From Sapiens you can export svg and modify colours.
 - https://logomaster.ai/
 - https://logomakr.com/
 - https://www.freelogodesign.org/
+
+## Authentication
+
+- Firebase Authentication: https://firebase.google.com/docs/auth
+- Auth0: https://auth0.com/
+
+## Deployment
+
+- Render: https://render.com/
+- Netlify: https://www.netlify.com/
+- Vercel: https://vercel.com/
+- AWS Amplify: https://aws.amazon.com/amplify/
+  - AWS Amplify provides a set of tools and services for building full-stack serverless web applications, including authentication and deployment.
+- DigitalOcean: https://www.digitalocean.com/ 
+  - DigitalOcean is a cloud infrastructure provider that offers hosting solutions for deploying React applications.
