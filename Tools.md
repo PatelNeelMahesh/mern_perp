@@ -94,6 +94,11 @@ From Sapiens you can export svg and modify colours.
   - Figma to React: https://www.locofy.ai/convert/figma-to-react
   - Locofy Tutorial: https://www.youtube.com/watch?v=6UIfbJfz1jI
 
+- framer: https://framer.com/
+
+  - with framer you will be able to genrate and design the website on framer studio
+  - framer ai genrater can genrate template website with your given description
+
 ## Logo design
 
 - Canva: https://www.canva.com/
@@ -113,5 +118,5 @@ From Sapiens you can export svg and modify colours.
 - Vercel: https://vercel.com/
 - AWS Amplify: https://aws.amazon.com/amplify/
   - AWS Amplify provides a set of tools and services for building full-stack serverless web applications, including authentication and deployment.
-- DigitalOcean: https://www.digitalocean.com/ 
+- DigitalOcean: https://www.digitalocean.com/
   - DigitalOcean is a cloud infrastructure provider that offers hosting solutions for deploying React applications.
