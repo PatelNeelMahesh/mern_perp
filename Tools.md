@@ -29,6 +29,12 @@ Download Free Icons and Stickers for your projects. (MP4, gif, png)
 
 - To conver PNG to SVG import image in figma and export as SVG, https://www.figma.com/
 
+For stock photos
+
+- https://pixabay.com/
+- https://www.pexels.com/
+- https://unsplash.com/
+
 ## Fonts
 
 - Fonts in the wild: https://www.fontsinthewild.com/
@@ -87,3 +93,10 @@ From Sapiens you can export svg and modify colours.
 
   - Figma to React: https://www.locofy.ai/convert/figma-to-react
   - Locofy Tutorial: https://www.youtube.com/watch?v=6UIfbJfz1jI
+
+## Logo design
+
+- Canva: https://www.canva.com/
+- https://logomaster.ai/
+- https://logomakr.com/
+- https://www.freelogodesign.org/
