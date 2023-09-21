@@ -5,15 +5,18 @@
 ### Color palette generator
 
 - colors: https://coolors.co/
+- colorSpace: https://mycolor.space/
+
 - huemint
 
   - https://huemint.com/
   - https://huemint.com/brand-intersection/
   - https://huemint.com/website-magazine/
 
-- Realtime Colors
-- https://realtimecolors.com/
-- Youtube Tutorial: https://www.youtube.com/watch?v=HAlIWRcldoc
+- realtime colors
+
+  - https://realtimecolors.com/
+  - Youtube Tutorial: https://www.youtube.com/watch?v=HAlIWRcldoc
 
 ## Images
 
@@ -26,11 +29,16 @@ Download Free Icons and Stickers for your projects. (MP4, gif, png)
 
 - To conver PNG to SVG import image in figma and export as SVG, https://www.figma.com/
 
+## Fonts
+
+- Fonts in the wild: https://www.fontsinthewild.com/
+
 ## 2D Illustrations
 
 Recomended for small images and illustrations
 
 - icons8: https://icons8.com/
+
 - Illistrations: https://icons8.com/illustrations/business/service/delivery
   - Group of friends: https://icons8.com/illustrations/t/group-of-friends
   - Office: https://icons8.com/illustrations/t/office
@@ -69,3 +77,13 @@ From Sapiens you can export svg and modify colours.
 - mui: https://mui.com/components/
 - ang design: https://ant.design/components/overview
 
+## Code Generators
+
+- webfloc: https://webflow.com/
+
+  - Design and Export HTML/CSS: https://webflow.com/designer
+
+- locofy: https://www.locofy.ai/
+
+  - Figma to React: https://www.locofy.ai/convert/figma-to-react
+  - Locofy Tutorial: https://www.youtube.com/watch?v=6UIfbJfz1jI
