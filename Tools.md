@@ -120,3 +120,24 @@ From Sapiens you can export svg and modify colours.
   - AWS Amplify provides a set of tools and services for building full-stack serverless web applications, including authentication and deployment.
 - DigitalOcean: https://www.digitalocean.com/
   - DigitalOcean is a cloud infrastructure provider that offers hosting solutions for deploying React applications.
+
+## Storing Media
+
+- Cloudinary: https://cloudinary.com/
+  - Youtube tutorial: https://www.youtube.com/watch?v=paiO6M2wBqE
+- AWS S3: https://aws.amazon.com/s3/
+  - How to sign up for AWS free tier: https://www.youtube.com/watch?v=SFaSB6vgp8k
+
+## Payment Gateways
+
+- Razorpay: https://razorpay.com/docs/#home-payments
+
+  - Key Features: Supports a wide range of payment methods, including credit/debit cards, net banking, UPI, and wallets. Offers easy integration with a well-documented API.
+
+- Cashfree: https://docs.cashfree.com/
+
+  - Key Features: Supports a range of payment options, including UPI, cards, and wallets. Offers easy integration and advanced features like instant settlements.
+
+- Paytm: https://business.paytm.com/docs
+
+  - Key Features: Offers a popular digital wallet and payment gateway. Supports various payment methods, including Paytm Wallet, UPI, and cards.
