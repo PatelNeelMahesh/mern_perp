@@ -142,7 +142,7 @@ From Sapiens you can export svg and modify colours.
 
   - Key Features: Offers a popular digital wallet and payment gateway. Supports various payment methods, including Paytm Wallet, UPI, and cards.
 
- # React Chart Libraries
+ ## React Chart Libraries
 
 - react-chartjs-2: https://react-chartjs-2.js.org/
 - nivo: https://nivo.rocks/
