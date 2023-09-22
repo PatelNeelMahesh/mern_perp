@@ -297,6 +297,13 @@
     - **Free Tier**: Yes
 
 50. **Jikan API**
+
     - **Description**: Offers data about anime and manga, including titles, episodes, and characters.
     - **API Documentation**: [Jikan API](https://jikan.docs.apiary.io/)
+    - **Free Tier**: Yes
+
+51. **Pokeapi**
+
+    - **Description**: all the Pokémon data you'll ever need in one place,easily accessible through a modern RESTful API.
+    - **API Documentation**: [Pokeapi](https://pokeapi.co/)
     - **Free Tier**: Yes
