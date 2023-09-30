@@ -1,5 +1,9 @@
 Creating an effective resume as a fresher is crucial to make a strong impression on potential employers. Here are some dos and don'ts, along with a simple framework to follow:
 
+## Resume Format from canva
+
+- https://www.canva.com/design/DAFvd3oH9EQ/aS9nDfqG7BCr6f-zGbTyYw/edit?referrer=resumes-landing-page
+
 **Dos:**
 
 1. **Start with a strong summary:** Begin your resume with a concise summary that highlights your skills, enthusiasm, and career goals. Tailor it to the specific job you're applying for.
