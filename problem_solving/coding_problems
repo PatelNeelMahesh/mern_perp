@@ -1,18 +1,37 @@
-1) Given an array of size N-1 such that it only contains distinct integers in the range of 
-1 to N. Find the missing element. 
+1. Given an array of size N-1 such that it only contains distinct integers in the range of
+   1 to N. Find the missing element.
 
-Example 1: 
+Example 1:
 Input: N = 5 A[] = {1,2,3,5}
 Output: 4
 
-Example 2: 
+Example 2:
 Input: N = 10 A[] = {1,2,3,4,5,6,7,8,10}
-Output: 9
+Output: 9;
 
+Sol:
+int MissingElement(int arr[],int N){
+int total=(N\*(N+1))/2;
+int sum=0;
+for(int i=0;i<N -1;i++){
+sum+=arr[i];
+}
+int element=total-sum;
+return element;
+}
 
+int main(){
+int N;
+cin>>N;
+int arr[N-1];
+for(int i=0;i<N-1;i++){
+cin>>arr[i];
+}
+int element=MissingElement(arr,N);
+cout<<elemnt;
+}
 
-
-2)  Given two strings denoting non-negative numbers s1 and s2. Calculate the sum of s1 and s2.
+2.  Given two strings denoting non-negative numbers s1 and s2. Calculate the sum of s1 and s2.
 
 Input Format:
 Two strings denoting s1 and s2
@@ -25,8 +44,40 @@ Sample Input:
 Sample Output:
 10434
 
+Sol:
 
+int SumNumber(string s1 && string s2){
+int carry=0;
+string sum;
 
+int a=s1.size()-1;
+int b=s2.size()-1;
+
+while(a>=0 || b>=0 || carry>0){
+int digit1=(a>=0) ? (s1[a]-'0'):0;
+int digit2=(b>=0) ? (s2[b]-'0') :0;
+
+    int sumdigit=digit1+digit2+carry;
+    carry=sumdigit/10;
+    int digit=sumdigit % 10;
+    a--;
+    b--;
+
+}
+}
+
+int main(){
+string s1;
+cin>>s1;
+string s2;
+cin>>s2;
+
+    string sum=SumNumber(s1,s2);
+    cout<<sum;
+
+    return 0
+
+}
 
 
 3) Klaus Mikaelson and his daughter Hope were arguing about who is the smartest person in the family. Klaus who is a world-known Computer Engineer asked Hope who has not yet completed her college to write a program to sort the given array in ascending order. Can you help Hope?
@@ -53,6 +104,39 @@ Explanation:
 Here we can compare the 1st value(54)with all the other values,54 is greater than 14 and 25 and hence 54 will get printed in the third position.
 Repeat the same process for all the remaining values to get the output in sorted order.
 
+SOl:
+
+#include <iostream>
+using namespace std;
+
+int HighestNumber(int arr[],int N){
+    for(int i=0;i<N - 1;i++){
+        for(int j=0;j<N- i - 1;j++){
+            if(arr[j]>arr[j + 1]){
+                int temp=arr[j];
+                arr[j]=arr[j + 1];
+                arr[j + 1]=temp;
+            }
+        }
+    }
+}
+
+int main() {
+    int N;
+    cin>>N;
+    int arr[N];
+    for(int i=0;i<N;i++){
+        cin>>arr[i];
+    }
+    
+    HighestNumber(arr,N);
+    
+    for(int i=0;i<N;i++){
+        cout<<arr[i]<<"\n";
+    }
+    return 0;
+}
+
 
 
 
@@ -64,6 +148,20 @@ water
 Output :
 terwa
 
+Sol:
+#include <iostream>
+#include <algorithm>
+#include <string>
+using namespace std;
+int main() {
+    string str;
+    cin>>str;
+    reverse(str.begin(), str.end());
+
+    cout << "Reversed string: " << str << std::endl;
+
+    return 0;
+}
 
 
 
@@ -78,9 +176,48 @@ Explanation: amazon can be rotated anti
 clockwise by two places, which will make
 it as azonam
 
+Sol:
 
 
+#include <iostream>
+#include <string>
+using namespace std;
 
+bool isRotatedByTwoPlaces(string a, string b) {
+    int n = a.length();
+    
+    if (n != b.length()) {
+        return false;
+    }
+    
+    string leftRotation = a.substr(2) + a.substr(0, 2);
+    if (leftRotation == b) {
+        return true;
+    }
+    string rightRotation = a.substr(n - 2) + a.substr(0, n - 2);
+    if (rightRotation == b) {
+        return true;
+    }
+    return false;
+}
+
+int main() {
+     string a, b;
+    cout << "Enter string a: ";
+    cin >> a;
+    cout << "Enter string b: ";
+    cin >> b;
+    
+    bool result = isRotatedByTwoPlaces(a, b);
+    
+    if (result) {
+       cout << "String b can be obtained by rotating string a by exactly 2 places.\n";
+    } else {
+     cout << "String b cannot be obtained by rotating string a by exactly 2 places.\n";
+    }
+    
+    return 0;
+}
 
 
 
